@@ -38,8 +38,8 @@
 	<platform name="ios">
 		<!--<plugins-plist key="PickerView" />-->
 		<config-file target="config.xml" parent="/*">
-	            <feature name="PickerView">
-	                <param name="ios-package" value="PickerView"/>
+	            <feature name="PluginView">
+	                <param name="ios-package" value="PluginView"/>
 	            </feature>
 	        </config-file>
 		<header-file src="src/ios/PickerView.h" />
